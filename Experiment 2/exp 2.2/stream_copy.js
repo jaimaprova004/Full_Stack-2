@@ -1,0 +1,13 @@
+const fs = require('fs');
+const path = require('path');
+const os = require('os');
+const src = path.join(__dirname,'..','rbac-demo.zip');
+const dst = path.join(os.homedir(),'Desktop','rbac-demo.zip');
+console.log('SRC', src);
+console.log('DST', dst);
+const rs = fs.createReadStream(src);
+const ws = fs.createWriteStream(dst);
+rs.on('error', e => { console.error('RERR', e.message); process.exit(2); });
+ws.on('error', e => { console.error('WERR', e.message); process.exit(3); });
+ws.on('close', ()=>{ console.log('COPIED'); });
+rs.pipe(ws);

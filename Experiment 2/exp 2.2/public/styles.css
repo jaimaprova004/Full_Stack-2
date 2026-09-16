@@ -1,0 +1,15 @@
+:root{
+  --bg1:#ff9a9e; --bg2:#fad0c4; --card:#ffffffcc; --accent:#6a11cb; --muted:#444;
+}
+*{box-sizing:border-box;font-family:Inter,Segoe UI,Arial,sans-serif}
+body{margin:0;min-height:100vh;background:linear-gradient(135deg,var(--bg1),var(--bg2));display:flex;align-items:center;justify-content:center;padding:24px}
+.container{width:100%;max-width:980px}
+header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+header h1{margin:0;color:var(--accent);text-shadow:0 2px 0 rgba(255,255,255,0.3)}
+.muted{color:var(--muted);font-size:0.95rem}
+.card{background:var(--card);border-radius:12px;padding:16px;margin-bottom:12px;box-shadow:0 6px 18px rgba(0,0,0,0.08)}
+.auth input{display:block;width:100%;padding:8px;margin:8px 0;border-radius:8px;border:1px solid #eee}
+.auth button{background:linear-gradient(90deg,#6a11cb,#2575fc);color:white;padding:10px 14px;border-radius:10px;border:0;cursor:pointer}
+.actions .buttons{display:flex;gap:8px;margin-bottom:12px}
+.actions button{padding:8px 12px;border-radius:10px;border:0;background:linear-gradient(90deg,#ff9966,#ff5e62);color:white;cursor:pointer}
+.posts .post{border-radius:10px;padding:12px;margin-bottom:8px;background:linear-gradient(180deg,#fff,#f8f8ff)}
