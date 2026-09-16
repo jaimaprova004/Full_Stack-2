@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JWT Auth App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-blobs">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+  </div>
+
+  <main class="page-shell">
+    <section class="card">
+      <div class="brand-row">
+        <div class="brand-icon">🔐</div>
+        <div>
+          <p class="eyebrow">Secure Access</p>
+          <h1>JWT Pulse</h1>
+        </div>
+      </div>
+
+      <div class="tab-container">
+        <button id="btn-login-tab" class="tab active" type="button" onclick="switchTab('login')">Login</button>
+        <button id="btn-register-tab" class="tab" type="button" onclick="switchTab('register')">Register</button>
+      </div>
+
+      <h2 id="title" class="section-title">Welcome</h2>
+
+      <div id="auth-box">
+        <form class="form" id="auth-form" onsubmit="handleAuth(event)">
+          <input id="username" type="text" placeholder="Username" required />
+          <input id="password" type="password" placeholder="Password" required />
+          <button id="sub-btn" class="primary-btn" type="submit">Login</button>
+        </form>
+
+        <div id="msg" class="message"></div>
+      </div>
+
+      <div id="dash-box" class="dashboard hidden">
+        <h2 id="welcome-text"></h2>
+        <p class="badge">Authenticated</p>
+        <button class="secondary-btn" type="button" onclick="logout()">Logout</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
