@@ -1,0 +1,37 @@
+[
+  {
+    "username": "alice",
+    "passwordHash": "$2a$08$g9PcQPkc5Mr8STiYmlQrweEehFrnF448rEhdmKMCsYGAO/IvjJby2",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "username": "bob",
+    "passwordHash": "$2a$08$3sxQk6ne1zc0Z5UU2oDMSOLfK2gnJHE0GntY0uS8j7roa1JgVHOvW",
+    "roles": [
+      "editor"
+    ]
+  },
+  {
+    "username": "carol",
+    "passwordHash": "$2a$08$LuB6Sdvh13em8BCLTmegS.gVac86B65P08b0ARFdZbYuEB7VELEC6",
+    "roles": [
+      "viewer"
+    ]
+  },
+  {
+    "username": "dave",
+    "passwordHash": "$2a$08$n0TRrsu/ELmx43X7xOfwPuaEtk3tahBA1v.qBQqbgGVPj1.s0tfPa",
+    "roles": [
+      "editor"
+    ]
+  },
+  {
+    "username": "Jaima Jarin Prova",
+    "passwordHash": "$2a$08$gD9he/jtmgGcq.0adp4/L.M7Ih4qY8Y6MNK/cc62vT20s0zzrbCWq",
+    "roles": [
+      "viewer"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Welcome",
+    "body": "This is a public post."
+  },
+  {
+    "id": 2,
+    "title": "Live demo post",
+    "body": "Created for the presentation."
+  }
+]
