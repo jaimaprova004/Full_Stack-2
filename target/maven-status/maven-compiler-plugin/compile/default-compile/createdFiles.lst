@@ -1,0 +1,8 @@
+com\example\paginationapi\product\Product.class
+com\example\paginationapi\product\ProductRepository.class
+com\example\paginationapi\product\ProductController.class
+com\example\paginationapi\PaginationApiApplication.class
+com\example\paginationapi\CacheConfiguration.class
+com\example\paginationapi\product\PageResponse.class
+com\example\paginationapi\product\ProductService.class
+com\example\paginationapi\product\ProductDataLoader.class
